@@ -1,0 +1,19 @@
+{
+  "name": "cypress_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:open": "npx cypress open --config-file cypress.config.js",
+    "dev:open_bdd": "npx cypress open --config-file cypress-dev.bdd.config.js"
+  },
+  "author": "jiri@carek.eu",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress": "^13.13.0",
+    "cypress-real-events": "^1.13.0"
+  }
+}
